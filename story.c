@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define ARR_LEN 10
 
 int main(void){
 	printf("hello world!");
@@ -10,9 +11,9 @@ int main(void){
 }
 
 float test(void){
-	int a[10];
+	int a[ARR_LEN];
 	float b = 0;
-	for(int i=0; i<10; i++){
+	for(int i=0; i<ARR_LEN; i++){
 		if(a[i] >= 0){
 			b += a;
 		}
